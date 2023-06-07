@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
-            Toast.makeText(this, "KURCINA TRPSONSKA", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "KURCINA TRPSONSK", Toast.LENGTH_LONG).show()
         }
     }
 }
